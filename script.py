@@ -2,8 +2,10 @@ import time
 import sys
 
 def main():
+    i = 0
     while True:
-        print("test")
+        i = i + 1
+        print("Ez host test log" + i)
         sys.stdout.flush()
         time.sleep(5)
 
